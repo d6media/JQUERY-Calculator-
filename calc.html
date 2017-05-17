@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Calculator Test</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="modal">
+ <div class="modal-content">
+    <p>Please enter your name:</p>
+    <input class="name" type="name" placeholder="Name..."></input>
+
+    <button id="cancel">Cancel</button>
+    <button id="ok">Ok</button>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="calc">
+    <div class="text-center">
+      <input class="text-right textBox" type="textBox" placeholder="0" readonly>
+      </input>
+    </div>
+    <div id="buttons">
+      <ul>
+        <li>
+          <button class="btn btn-default text-center" value="7">7</button>
+          <button class="btn btn-default text-center" value="8">8</button>
+          <button class="btn btn-default text-center" value="9">9</button>
+          <button class="btn btn-default text-center" value="+">+</button>
+        </li>
+        <li>
+          <button class="btn btn-default text-center" value="4">4</button>
+          <button class="btn btn-default text-center" value="5">5</button>
+          <button class="btn btn-default text-center" value="6">6</button>
+          <button class="btn btn-default text-center" value="-">-</button>
+        </li>
+        <li>
+          <button class="btn btn-default text-center" value="1">1</button>
+          <button class="btn btn-default text-center" value="2">2</button>
+          <button class="btn btn-default text-center" value="3">3</button>
+          <button class="btn btn-default text-center" value="*">*</button>
+        </li>
+        <li>
+          <button class="btn btn-default text-center" value="0">0</button>
+          <button class="btn btn-default text-center" value=".">.</button>
+          <button class="btn btn-default divide text-center" value="/">/</button>
+          <button class="btn btn-default equals text-center" value="=">=</button>
+          <button class="btn btn-default save text-center" value="S">save</button>
+          <button class="btn btn-default text-center" value="C">cancel</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+   <div class="display">
+ </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="script.js" type="text/javascript"></script>
+
+</body>
+</html>
